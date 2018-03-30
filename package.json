@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/g-szerminski/zadanie16.4#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
     "globstar": "^1.0.0",
     "jshint": "^2.9.5",
     "webpack": "^3.10.0"
