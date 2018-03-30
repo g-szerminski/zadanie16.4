@@ -1,0 +1,27 @@
+{
+  "name": "zadanie16.4",
+  "version": "1.0.0",
+  "description": "16 - Webpack - panaceum front-endowca ?<br>\r 16.3 - Pierwsza konfiguracja Webpacka<br>\r - Użycie Webpacka przez CLI<br>\r - Omówienie i wykorzystanie pliku konfiguracyjnego Webpacka<br>\r - Stworzenie odpowiedniej struktury folderów",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:js": "globstar jshint src/*.js",
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-szerminski/zadanie16.4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g-szerminski/zadanie16.4/issues"
+  },
+  "homepage": "https://github.com/g-szerminski/zadanie16.4#readme",
+  "devDependencies": {
+    "globstar": "^1.0.0",
+    "jshint": "^2.9.5",
+    "webpack": "^3.10.0"
+  }
+}
