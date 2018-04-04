@@ -26,6 +26,8 @@
     "babel-preset-react": "^6.24.1",
     "globstar": "^1.0.0",
     "jshint": "^2.9.5",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
     "webpack": "^3.10.0"
   }
 }
