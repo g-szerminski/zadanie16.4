@@ -10,6 +10,7 @@ class App extends React.Component {
             data: []
         };
     }
+    
     addTodo(val){
         const todo = {
             text: val,
@@ -19,7 +20,6 @@ class App extends React.Component {
         this.setState({data});
     }
 
-
     removeTodo(id) {
         const remainder = this.state.data.filter(todo => todo.id !== id);
         this.setState({data: remainder});
@@ -28,9 +28,9 @@ class App extends React.Component {
     render() {
         return (
             <div className={style.TodoApp}>
-                <Title title="TODO !!!"/>
+                <Title title="TODO LIST"/>
                 <ul>{list}</ul>
-                <p>Liczba zadań dodanych do listy: {list.length}</p>
+                <p>Tasks added to list: {list.length}</p>
             </div>
         );
     }
